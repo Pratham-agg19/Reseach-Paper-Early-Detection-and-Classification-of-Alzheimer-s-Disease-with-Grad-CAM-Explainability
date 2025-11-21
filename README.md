@@ -58,7 +58,6 @@ Grad-CAM was integrated into the deep learning models to:
 
 ## 📂 Repository Contents
 
-- 📘 Data Set Link
 - 🧪 Training notebooks  
 - 📄 Model comparison results  
 - 📄 Paper Copy  
