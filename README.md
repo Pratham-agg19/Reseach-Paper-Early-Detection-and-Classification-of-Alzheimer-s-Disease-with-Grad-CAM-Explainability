@@ -1,98 +1,79 @@
-🧠 #Early Detection & Classification of Alzheimer’s Disease (MRI-Based)
+# 🧠 Early Detection & Classification of Alzheimer’s Disease (MRI-Based)
+*A Multi-Model Deep Learning & Explainable AI Approach*
 
-A Multi-Model Deep Learning & Explainable AI Approach
+---
 
-🔍 Overview
+## 🔍 Overview
+Alzheimer’s Disease is a progressive neurodegenerative disorder, and **early detection is crucial** for patient care.  
+This project analyzes MRI scans using **multiple machine learning and deep learning models** to classify:
 
-#Alzheimer’s Disease (AD) is a progressive neurodegenerative disorder, and early detection is critical for timely intervention.
-This research explores multiple machine learning and deep learning models on MRI scans to classify:
+- 🟢 Non-Demented  
+- 🟡 Very Mild Demented  
+- 🟠 Mild Demented  
+- 🔴 Moderate Demented  
 
-🟢 Non-Demented
+The project also integrates **Grad-CAM explainability** to highlight the brain regions influencing model predictions.
 
-🟡 Very Mild Demented
+---
 
-🟠 Mild Demented
+## 🚀 Model Approaches Used
 
-🔴 Moderate Demented
+### 🟣 1. K-Nearest Neighbors (KNN)
+- Baseline classical ML method  
+- Useful for quick benchmarking  
 
-Our work integrates explainable AI (Grad-CAM) to understand model decisions, highlighting critical brain regions influencing predictions.
+### 🟡 2. Ensemble Model
+- Combines multiple weak classifiers  
+- Improves generalization & robustness  
 
-🚀 Model Approaches Used
+### 🔵 3. CNN with Fine-Tuning  
+⭐ **Best Performance: 95% Accuracy**  
+- Transfer learning with custom layers  
+- Strong feature extraction on MRI data  
 
-We performed a comprehensive comparison across classical ML + deep learning models:
+### 🟠 4. Combined CNN Model  
+- Dual-branch architecture  
+- Enhanced feature depth and representation  
 
-🟣 1. K-Nearest Neighbors (KNN)
+---
 
-Baseline classical ML classifier
+## 🔎 Explainable AI with Grad-CAM
+Grad-CAM was integrated into the deep learning models to:
 
-Useful for feature-based comparison
+- 🔥 Generate class activation heatmaps  
+- 🧠 Highlight critical brain areas used in decision-making  
+- 📊 Improve model interpretability for clinical trust  
 
-🟡 2. Ensemble Model
+---
 
-Combines multiple weak learners
+## ✨ Key Highlights
 
-Boosts overall stability & generalization
+- ✔ **Achieved 95% accuracy** using the Fine-Tuned CNN  
+- ✔ Full comparative study of ML & DL models  
+- ✔ Grad-CAM visualizations for transparency  
+- ✔ Complete preprocessing → training → evaluation pipeline  
+- ✔ Extensive visualizations included (accuracy curves, loss plots, confusion matrices)
 
-🔵 3. CNN with Fine-Tuning (Best Model)
+---
 
-Transfer Learning + custom layers
+## 📂 Repository Contents
 
-Achieved 95% Accuracy 🎯
+- 📁 Dataset preprocessing scripts  
+- 🧪 Training notebooks  
+- 📄 Model comparison results  
+- 🔥 Grad-CAM outputs  
+- 📊 Accuracy, loss & confusion matrix plots  
+- 🧠 Full deep learning pipeline (ready to run)
 
-🟠 4. Combined Dual-CNN Architecture
+---
 
-Parallel feature extraction
+## 📘 Ideal For
 
-Improved depth of learned representations
+- Medical imaging research  
+- Deep learning classification tasks  
+- Explainable AI studies  
+- University research projects  
+- Healthcare AI applications  
 
-🔎 Explainable AI with Grad-CAM
+---
 
-To ensure reliability & interpretability:
-
-🔥 Class activation maps highlight regions influencing the model’s decision
-
-🧠 Helps verify whether CNN focuses on medically relevant brain structures
-
-📊 Supports trust-building in clinical settings
-
-✨ Key Highlights
-
-✔ 95% accuracy with Fine-Tuned CNN (best-performing model)
-✔ Comparative analysis of ML & DL architectures
-✔ Complete pipeline for:
-
-Preprocessing
-
-Data augmentation
-
-Model training
-
-Evaluation metrics
-
-Visualization
-✔ Grad-CAM integration for interpretability
-✔ Clean, modular, and reproducible research workflow
-
-📂 Included in This Repository
-
-📁 Dataset preprocessing scripts
-
-🧪 Training notebooks
-
-📉 Accuracy, loss & confusion matrix plots
-
-🔥 Grad-CAM visualization outputs
-
-🧩 Model comparison report
-
-🧠 Complete reproducible deep learning pipeline
-
-📘 Perfect For
-
-Medical imaging research
-
-Explainable AI projects
-
-Deep learning classification tasks
-
-Students & researchers exploring Alzheimer’s detection
