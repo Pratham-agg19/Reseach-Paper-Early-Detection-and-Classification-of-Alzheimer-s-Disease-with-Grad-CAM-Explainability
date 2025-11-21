@@ -58,11 +58,10 @@ Grad-CAM was integrated into the deep learning models to:
 
 ## 📂 Repository Contents
 
-- 📁 Dataset preprocessing scripts  
+- 📘 Data Set Link
 - 🧪 Training notebooks  
 - 📄 Model comparison results  
-- 🔥 Grad-CAM outputs  
-- 📊 Accuracy, loss & confusion matrix plots  
+- 📄 Paper Copy  
 - 🧠 Full deep learning pipeline (ready to run)
 
 ---
